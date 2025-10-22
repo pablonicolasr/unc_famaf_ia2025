@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+out/
+proc/
+func/
+images/
+imagenes/
+*.zip
+*.geojson
+*.tiff
+*.tiff
+func/
+
+
 # Distribution / packaging
 .Python
 build/
@@ -159,6 +171,8 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+raw_data
+
 # Pyre type checker
 .pyre/
 
@@ -193,6 +207,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+raw_data/
 
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
